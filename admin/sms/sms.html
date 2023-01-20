@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sms in mobile</title>
+</head>
+<body>
+	<?php
+		if(iffset($_POST['submitsms']))
+		{
+
+		}
+	?>
+
+	<div class="smsbody">
+		<table align="center">
+			<tr>
+				<td>Customer no.:</td>
+				<td><input type="number" name="customer_no" placeholder="Enter mobile no."></td>
+			</tr>
+			<tr>
+				<td>Sender name:</td>
+				<td><input type="name" name="sender" placeholder="Enter Company name"></td>
+			</tr>
+			<tr>
+				<td>Message:</td>
+				<td><textarea name="message" rows="4" cols="50" placeholder="Enter a message"></textarea></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><input type="submit" name="submitsms"> </td>
+			</tr>
+
+		</table>
+	</div>
+
+</body>
+</html>
